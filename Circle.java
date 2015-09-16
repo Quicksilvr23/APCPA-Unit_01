@@ -10,23 +10,25 @@ public class Circle
     {
      final double PI = 3.14159;
      
-     int radius = 10;
-     double area = PI * radius * radius;
-     double circumference = (PI * radius) * 2;
+     int radius_one = 10;
+     double area_one = PI * radius_one * radius_one;
+     double circumference_one = (PI * radius_one) * 2;
      
-     System.out.println("The area of a circle with radius " + radius +
-                        " is " + area);
-     System.out.println("The circumference of a circle with radius " + radius +
-                        " is " + circumference);
+     System.out.println("The area of a circle with radius " + radius_one +
+                        " is " + area_one);
+     System.out.println("The circumference of a circle with radius " + radius_one +
+                        " is " + circumference_one);
 
-     radius = 20;
-     area = PI * radius * radius;
-     circumference = (PI * radius)*2;
+     int radius_two = 20;
+     double area_two = PI * radius_two * radius_two;
+     double circumference_two = (PI * radius_two)*2;
 
-     System.out.println("The area of a circle with radius " + radius +
-                        " is " + area);
-     System.out.println("The circumference of a circle with radius " + radius +
-                        " is " + circumference);
+     System.out.println("The area of a circle with radius " + radius_two +
+                        " is " + area_two);
+     System.out.println("The circumference of a circle with radius " + radius_two +
+                        " is " + circumference_two);
+     
+     double area_growth = 
 
     }
 }
